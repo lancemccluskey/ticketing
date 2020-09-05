@@ -6,5 +6,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    - uses: checkout/v2
-    - run: cd payments && npm install && npm run test:ci
+    steps:
+      - uses: checkout/v2
+      - run: cd payments && npm install && npm run test:ci
