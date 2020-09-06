@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +17,13 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-stripe-checkout": "^2.6.3"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^7.24.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.2",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.2",
+    "jest-dom": "^4.0.0"
   }
 }
