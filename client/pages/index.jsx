@@ -3,6 +3,7 @@ import Link from 'next/link';
 import buildClient from '../api/build-client';
 
 const LandingPage = ({ currentUser, tickets }) => {
+  // Wassup
   console.log('LandingPage Component -> currentUser', currentUser);
   console.log('LandingPage Component -> tickets', tickets);
 
