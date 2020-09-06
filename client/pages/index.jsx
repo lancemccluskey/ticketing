@@ -6,7 +6,7 @@ const LandingPage = ({ currentUser, tickets }) => {
   console.log('LandingPage Component -> currentUser', currentUser);
   console.log('LandingPage Component -> tickets', tickets);
 
-  const ticketList = tickets.map(ticket => {
+  const ticketList = tickets?.map(ticket => {
     return (
       <tr key={ticket.id}>
         <td>{ticket.title}</td>
